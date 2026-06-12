@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Profile</title>
+    <link rel="stylesheet" type="text/css" href="portfolio.css">
+</head>
+<body>
+
+    <nav>
+        <div class="logo">Portfolio</div>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact Us">Contact Us</a></li>
+        </ul>
+    </nav>
+
+    <header>
+        <img src="./profilepicture.jpg" alt="My Profile Picture" class="profile-pic">
+        <h1>SRAVAN SREEKUMAR</h1>
+        <p>Web Developer | Gamer</p>
+    </header>
+
+    <div class="container">
+        
+        <section id="about">
+            <h2>About Me</h2>
+            <div class="about-content">
+                <p>Hello! I'm Sravan Sreekumar, a student passionate about technology, web development, and game development. I enjoy learning new programming skills, creating creative projects, and solving real-world problems through technology. My goal is to continuously improve my knowledge and build innovative applications that make a positive impact.</p>
+            </div>
+        </section>
+        <a href="https://www.instagram.com/mr.sra_v_an?igsh=c285ZW5pbmhvOXQ0" class="link"target="blank"><img src="./images (1).jpg" alt="Instagram" style="width: 50px; height: 50px;"></a>
+        <a href="https://www.linkedin.com/in/sravan-sreekumar-a92527383?utm_source=share_via&utm_content=profile&utm_medium=member_android" class="linked" target="_blank"><img src="./linkedin.png" alt="LinkedIn" style="width: 50px; height: 50px;"></a>
+
+        <section id="skills">
+            <h2>My Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-card">HTML</div>
+                <div class="skill-card">CSS</div>
+                <div class="skill-card">JavaScript</div>
+                <div class="skill-card">Python</div>
+            </div>
+        </section>
+
+        <section id="projects">
+            <h2>My Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-info">
+                        <h3>Project VEHICLE CARE ASSIST.</h3>
+                        <p>Vehicle Care Assist is a mobile application designed to help users maintain their vehicles by providing features such as service reminders, maintenance tips, and a log for tracking repairs and expenses.</p>
+                        <a href="https://vehiclecareassist.netlify.app" target="_blank" class="project-link"><img src="./vehicle care assist.jpeg" alt="Vehicle Care Assist"></a>
+                    </div> 
+                </div>
+            </div>
+        </section>
+
+        <section id=" contact">
+            <h2>Contact Us</h2>
+            <p class="section-subtitle">IF YOU HAVE ANY QUESTIONS, FEEL FREE TO REACH OUT!</p>
+            
+            <div class="contact-card">
+    <form action="success.html" method="POST">
+        <div class="form-group">
+            <label for="Fullname">Full Name:</label>
+            <input type="text" id="Fullname" name="Fullname" placeholder="SravanSreekumar" required>
+        </div>
+        <div>
+            <label for="Phonenumber">Phone Number:</label>
+            <input type="tel" id="Phonenumber" name="Phonenumber" placeholder="123-456-7890" required>
+        </div>
+        <div>
+            <label for="Date of birth">DOB</label>
+            <input type="date" id="Date of birth" name="Date of birth">
+        </div>
+        <div>
+            <label for="userEmail">Email Address:</label>
+            <input type="email" id="userEmail" name="userEmail" placeholder="sravansreekumar@example.com" required>
+        </div>
+        <div>
+              <label for="GENDER">Gender:</label>
+              <select id="Gender" name="Gender">
+              <option value="Male">Male</option>
+              <option value="Female">Female</option>
+              <option value="Other">Other</option>
+              </select>
+        </div>
+        <div>
+            <label for="Message">Message:</label>
+            <textarea id="Message" name="Message" placeholder="Your message here..." required></textarea>
+        </div>
+        <button type="submit">Submit</button>
+    </form>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 SRAVAN SREEKUMAR. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
